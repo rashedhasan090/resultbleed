@@ -1,0 +1,4 @@
+{"type":"tool_call","id":"c1","name":"get_weather","arguments":{"city":"Lincoln"}}
+{"type":"tool_result","tool_call_id":"c1","result":"Temperature is 72F with clear skies over downtown Lincoln Nebraska today."}
+{"type":"tool_call","id":"c2","name":"write_note","arguments":{"text":"Weather looks fine for an outdoor walk."}}
+{"type":"tool_result","tool_call_id":"c2","result":"saved"}

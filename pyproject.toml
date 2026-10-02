@@ -1,0 +1,20 @@
+[project]
+name = "resultbleed"
+version = "0.1.0"
+description = "Offline CLI: detect tool-result substrings that reappear in later tool-call arguments (result bleed)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Md Rashedul Hasan" }]
+dependencies = []
+
+[project.scripts]
+resultbleed = "resultbleed.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["resultbleed*"]
